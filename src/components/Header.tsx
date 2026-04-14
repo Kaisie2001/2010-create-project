@@ -11,10 +11,10 @@ export default function Header() {
           <span className="font-bold text-xl tracking-tight">TraceWall-HK</span>
         </div>
         <nav className="flex items-center gap-6">
-          <a href="#" className="text-gray-500 hover:text-black text-sm font-medium">Home</a>
-          <a href="#" className="text-gray-500 hover:text-black text-sm font-medium">Cases</a>
+          <a href="https://0415-landing.netlify.app/" className="text-gray-500 hover:text-black text-sm font-medium">Home</a>
+          <a href="https://project-case.netlify.app/" className="text-gray-500 hover:text-black text-sm font-medium">Cases</a>
           <a href="#" className="text-blue-600 text-sm font-medium border-b-2 border-blue-600 py-5">New Project</a>
-          <a href="#" className="text-gray-500 hover:text-black text-sm font-medium">Workspace</a>
+          <a href="https://project-case.netlify.app/" className="text-gray-500 hover:text-black text-sm font-medium">Workspace</a>
         </nav>
       </div>
       <div className="flex items-center gap-4">
