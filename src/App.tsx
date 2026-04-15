@@ -84,7 +84,7 @@ export default function App() {
               /*onClick={nextStep}*/
               onClick={() => {
     if (currentStep === 4) {
-      window.location.href = "https://app.netlify.com/projects/project-case/overview";
+      window.location.href = "https://project-case.netlify.app/";
     } else {
       nextStep();
     }
