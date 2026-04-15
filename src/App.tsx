@@ -81,11 +81,18 @@ export default function App() {
             </div>
 
             <button
-              onClick={nextStep}
+              /*onClick={nextStep}*/
+              onClick={() => {
+    if (currentStep === 4) {
+      window.location.href = "https://app.netlify.com/projects/project-case/overview";
+    } else {
+      nextStep();
+    }
+  }}
               className="flex items-center gap-2 px-8 py-3 bg-blue-700 hover:bg-blue-800 text-white rounded-lg font-bold shadow-lg shadow-blue-900/10 transition-all active:scale-95"
             >
               {currentStep === 4 ? (
-                'Create Project Workspace'
+                'Create Project'
               ) : (
                 <>
                   Next: {currentStep === 1 ? 'Partition System' : currentStep === 2 ? 'Data Inputs' : 'Review & Generate'}
